@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="images/shakib.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css" />
   <!-- <link rel="stylesheet" href="desktop.css" /> -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
@@ -40,7 +41,7 @@
           </li>
           <li class="nav__item">
             <a href="#protfolio" class="nav__link">
-              <i class="uil uil-scenery nav__icon"></i>Protfolio
+              <i class="uil uil-scenery nav__icon"></i>Project
             </a>
           </li>
           <li class="nav__item">
@@ -97,8 +98,10 @@
           <div class="home__data">
             <h1 class="home__title">Hi, I'am Shakib</h1>
             <h3 class="home__subtitle">SoftWere Developer</h3>
-            <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis eaque
-              illo placeat voluptatibus sed temporibus maxime</p>
+            <p class="home__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              debitis eaque illo placeat voluptatibus sed temporibus maxime
+            </p>
             <a href="#contact" class="button button--flex">
               Contact Me<i class="uil uil-message button__icon"></i>
             </a>
@@ -120,24 +123,30 @@
       <span class="section__subtitle">My Introdution</span>
 
       <div class="about__container container grid">
-        <img src="images/about.jpg" alt="" class="about__img">
+        <img src="images/about.jpg" alt="" class="about__img" />
 
         <div class="about__data">
-          <p class="about__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius recusandae beatae
-            ea sunt magni velit id, animi minus fugiat reprehenderit. Lorem ipsum dolor sit amet.</p>
+          <p class="about__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+            recusandae beatae ea sunt magni velit id, animi minus fugiat
+            reprehenderit. Lorem ipsum dolor sit amet.
+          </p>
 
           <div class="about__info">
             <div>
               <span class="about__info-title">03+</span>
-              <span class="about__info-name">Years <br> experience</span>
+              <span class="about__info-name">Years <br />
+                experience</span>
             </div>
             <div>
               <span class="about__info-title">20+</span>
-              <span class="about__info-name">Complited <br> Project</span>
+              <span class="about__info-name">Complited <br />
+                Project</span>
             </div>
             <div>
               <span class="about__info-title">+0</span>
-              <span class="about__info-name">Companis <br> Worked</span>
+              <span class="about__info-name">Companis <br />
+                Worked</span>
             </div>
           </div>
           <div class="about__buttons">
@@ -259,7 +268,7 @@
               <i class="uil uil-angle-down skills__arrow"></i>
             </div>
 
-            <div class="skills__list  grid">
+            <div class="skills__list grid">
               <div class="skills__data">
                 <div class="skills__titles">
                   <h3 class="skills__name">Python</h3>
@@ -311,12 +320,12 @@
 
       <div class="qualification__container container">
         <div class="qualification__tabs">
-          <div class="qualification__button button--flex qualification__active" data-target='#education'>
+          <div class="qualification__button button--flex qualification__active" data-target="#education">
             <i class="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
 
-          <div class="qualification__button button--flex" data-target='#work'>
+          <div class="qualification__button button--flex" data-target="#work">
             <i class="uil uil-briefcase-alt qualification__icon"></i>
             Work
           </div>
@@ -439,7 +448,208 @@
       </div>
     </section>
 
-    <script src="app.js"></script>
+    <!-- project 1 -->
+    <section class="protfolio section" id="protfolio">
+      <h2 class="section__title">Project</h2>
+      <span class="section__subtitle">Most Recent Work</span>
+
+      <div class="protfolio__container container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="protfolio__content grid swiper-slide">
+            <img src="images/portfolio1.jpg" alt="" class="protfolio__img">
+
+            <div class="protfolio__data">
+              <h3 class="protfolio__title">Modern Website</h3>
+              <p class="protfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+                exercitationem. Lorem ipsum dolor sit amet.</p>
+              <a href="#" class="button button--flex button--small protfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- project 2 -->
+          <div class="protfolio__content grid swiper-slide">
+            <img src="images/portfolio2.jpg" alt="" class="protfolio__img">
+
+            <div class="protfolio__data">
+              <h3 class="protfolio__title">Brand Website</h3>
+              <p class="protfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+                exercitationem. Lorem ipsum dolor sit amet.</p>
+              <a href="#" class="button button--flex button--small protfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- project 3 -->
+          <div class="protfolio__content grid swiper-slide">
+            <img src="images/portfolio3.jpg" alt="" class="protfolio__img">
+
+            <div class="protfolio__data">
+              <h3 class="protfolio__title">Online Store</h3>
+              <p class="protfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+                exercitationem. Lorem ipsum dolor sit amet.</p>
+              <a href="#" class="button button--flex button--small protfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-protfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-protfolio-icon"></i>
+        </div>
+
+        <div class="swiper-button-pagination">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="project section">
+      <div class="project__bg">
+        <div class="project__container container grid">
+          <div class="project__data">
+            <h2 class="project__title">You Hava a New Project</h2>
+            <p class="project__description">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+            <a href="#contact" class="button button--flex button--white">
+              Contect Me
+              <i class="uil uil-message project__icon button__icon"></i>
+            </a>
+          </div>
+
+          <img src="images/project.png" alt="" class="project__img">
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial section">
+      <h2 class="section__title">Testimonial</h2>
+      <span class="section__subtitle">My Client Saying</span>
+
+      <div class="testimonial__container container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="images/testimonial1.jpg" alt="" class="testimonial__img">
+                <div>
+                  <h3 class="testimonial__name">Sara Smith</h3>
+                  <span class="testimonial__client">Client</span>
+                </div>
+              </div>
+
+              <div>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+              </div>
+            </div>
+
+            <p class="testimonial__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, labore?
+            </p>
+          </div>
+
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="images/testimonial2.jpg" alt="" class="testimonial__img">
+                <div>
+                  <h3 class="testimonial__name">Math Robinson</h3>
+                  <span class="testimonial__client">Client</span>
+                </div>
+              </div>
+
+              <div>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+              </div>
+            </div>
+
+            <p class="testimonial__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, labore?
+            </p>
+          </div>
+
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="images/testimonial3.jpg" alt="" class="testimonial__img">
+                <div>
+                  <h3 class="testimonial__name">Haris Rouf</h3>
+                  <span class="testimonial__client">Client</span>
+                </div>
+              </div>
+
+              <div>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+                <i class="uil uil-star testimonial__icon-star"></i>
+              </div>
+            </div>
+
+            <p class="testimonial__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, labore?
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-pagination swiper-pagination-testimonial"></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get In Touch</span>
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitele">+8801401997130</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitele">syednazmushakib94@gmial.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitele">Bangladesh Sylhet,Habiganj</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
