@@ -1075,6 +1075,23 @@ img {
   }
 }
 
+#about-img{
+  height: 415px;
+  width: 415px;
+}
+
+#abouts-img{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+#home-blob-img{
+  border-radius: 50px;
+  width: 170px;
+  height: 170px;
+}
+
 @media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
@@ -1372,6 +1389,7 @@ textarea {
 
 #fot {
   background-color: var(--input-color);
+  color: gray;
 }
 
 .wow {
@@ -1381,10 +1399,21 @@ textarea {
   background-clip: text;
 }
 
-.ttt{
+.ttt {
   padding: 15px 25px;
   border-radius: 10px;
   color: var(--first-color-alt);
   background-color: var(--input-color);
   border: 4px solid gray;
+}
+
+#site a {
+  color: rgb(131, 32, 136);
+}
+
+#ig{
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  padding-top: 1px;
 }
