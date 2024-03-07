@@ -5,7 +5,7 @@
 
   /*Color*/
   /* Change favorite color */
-  --hue-color: 250;
+  --hue-color: 230;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
@@ -116,6 +116,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  background-image: url(images/banner-bg.d6708ef8.png);
 }
 
 h1,
@@ -266,14 +267,14 @@ img {
 
 /*chinge bg header*/
 .scroll-header {
-  box-sizing: 0 -1px 4px rgba(0, 0, 0, .15);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
 
 .home__container {
   gap: 1rem;
 }
 
-.home_content {
+.home__content {
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
   align-items: center;
@@ -314,7 +315,7 @@ img {
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: var(--h2-font-size);
 }
 
 .home__subtitle {
@@ -738,6 +739,10 @@ img {
   visibility: visible;
 }
 
+.project.section {
+  background-image: url(images/announce-bg.b41ffe75.png);
+}
+
 .protfolio__container {
   overflow: initial;
 }
@@ -772,7 +777,7 @@ img {
 }
 
 .swiper-protfolio-icon {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--first-color);
 }
 
@@ -879,6 +884,7 @@ img {
 .contact__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  float: left;
 }
 
 .contact__subtitle {
@@ -918,12 +924,14 @@ img {
 
 .footer__bg {
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  padding: 3rem 0 4rem;
 }
+
 
 .footer__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+  border-radius: 5px;
 }
 
 .footer__subtitle {
@@ -1067,7 +1075,7 @@ img {
   }
 }
 
-@media screen and(min-width:568px) {
+@media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1097,7 +1105,7 @@ img {
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -1199,7 +1207,7 @@ img {
     margin: 0 var(--mb-1);
   }
 
-  .description__sections {
+  .qualification__sections {
     grid-template-columns: .5fr;
   }
 
@@ -1245,15 +1253,11 @@ img {
   }
 
   .project__data {
-    padding-top: .8px;
+    padding-top: .8rem;
   }
 
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer__bg {
-    padding: 3rem 0 3.5rem;
   }
 
   .footer__links {
@@ -1270,7 +1274,7 @@ img {
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
 
   .header,
   .main,
@@ -1317,4 +1321,70 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+
+.contact input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  resize: none;
+}
+
+.contact button {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--first-color-second);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  margin: 10px;
+  width: 100px;
+}
+
+.contact button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.contact-links {
+  text-align: center;
+}
+
+.media-buttons .btn {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 5px;
+  margin: 10px;
+  width: 50px;
+}
+
+.achievemnet-contact::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+#fot {
+  background-color: var(--input-color);
+}
+
+.wow {
+  background: linear-gradient(90deg, #583cea 15.94%, #1cc8ff 89.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ttt{
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: var(--first-color-alt);
+  background-color: var(--input-color);
+  border: 4px solid gray;
 }
