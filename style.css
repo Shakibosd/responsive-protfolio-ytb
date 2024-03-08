@@ -76,9 +76,6 @@ body.dark-theme {
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-
 }
 
 /*Button Dark/Light*/
@@ -1075,18 +1072,18 @@ img {
   }
 }
 
-#about-img{
+#about-img {
   height: 415px;
   width: 415px;
 }
 
-#abouts-img{
+#abouts-img {
   height: 250px;
   width: 250px;
   border-radius: 10px;
 }
 
-#home-blob-img{
+#home-blob-img {
   border-radius: 50px;
   width: 170px;
   height: 170px;
@@ -1411,7 +1408,7 @@ textarea {
   color: rgb(131, 32, 136);
 }
 
-#ig{
+#ig {
   height: 35px;
   width: 35px;
   border-radius: 50px;
