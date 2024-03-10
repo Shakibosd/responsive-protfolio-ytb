@@ -1,8 +1,10 @@
+//back to home
 const image = document.getElementById("logoImage");
 image.addEventListener("click", function () {
   window.location.href = "index.html";
 });
 
+//dark
 const darkModeToggle = document.getElementById("dark-mode-toggle");
 const body = document.body;
 

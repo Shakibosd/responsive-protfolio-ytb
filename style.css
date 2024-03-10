@@ -1,14 +1,15 @@
+/* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/* color set */
 :root {
   --header-height: 3rem;
 
   /*Color*/
-  /* Change favorite color */
   --hue-color: 230;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
-  /* HSL color mode */
+  /* HSL*/
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -22,7 +23,7 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-  /*Font and typography*/
+  /*Font*/
   --body-font: "Poppins", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -114,6 +115,7 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   background-image: url(images/banner-bg.d6708ef8.png);
+  margin: 0;
 }
 
 h1,
@@ -137,7 +139,7 @@ img {
   height: auto;
 }
 
-/*==================== REUSABLE CSS CLASSES ====================*/
+/*REUSABLE CSS CLASSES*/
 .section {
   padding: 2rem 0 4rem;
 }
@@ -157,7 +159,7 @@ img {
   text-align: center;
 }
 
-/*==================== LAYOUT ====================*/
+/* LAYOUT */
 .container {
   max-width: 768px;
   margin-left: var(--mb-1-5);
@@ -178,6 +180,7 @@ img {
   background-color: var(--body-color);
 }
 
+/* nabver */
 .nav {
   max-width: 968px;
   height: var(--header-height);
@@ -205,6 +208,7 @@ img {
   color: var(--first-color);
 }
 
+/* nav show menu */
 @media screen and (max-width: 776px) {
   .nav__menu {
     position: fixed;
@@ -224,6 +228,7 @@ img {
   gap: 2rem;
 }
 
+/* active link */
 .nav__link {
   display: flex;
   flex-direction: column;
@@ -267,6 +272,7 @@ img {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
 
+/* home */
 .home__container {
   gap: 1rem;
 }
@@ -354,6 +360,7 @@ img {
   font-size: 1.25rem;
 }
 
+/* buttons */
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -402,6 +409,7 @@ img {
   color: var(--first-color-alt);
 }
 
+/* about */
 .about__img {
   width: 200px;
   border-radius: .5rem;
@@ -441,6 +449,7 @@ img {
   justify-content: center;
 }
 
+/* skills */
 .skills__container {
   row-gap: 0;
 }
@@ -568,6 +577,7 @@ img {
   transform: rotate(-180deg);
 }
 
+/* qualification */
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -639,6 +649,7 @@ img {
   color: var(--first-color);
 }
 
+/* services */
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -679,6 +690,7 @@ img {
   transform: translateX(.25rem);
 }
 
+/* active-modal */
 .services__modal {
   position: fixed;
   top: 0;
@@ -740,6 +752,7 @@ img {
   background-image: url(images/announce-bg.b41ffe75.png);
 }
 
+/* protfolio */
 .protfolio__container {
   overflow: initial;
 }
@@ -800,6 +813,7 @@ img {
   outline: none;
 }
 
+/* project mind */
 .project {
   text-align: center;
 }
@@ -828,6 +842,7 @@ img {
   justify-self: center;
 }
 
+/* testimonial */
 .testimonial__data,
 .testimonial__header {
   display: flex;
@@ -867,6 +882,7 @@ img {
   bottom: 0;
 }
 
+/* contact me */
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
@@ -911,6 +927,7 @@ img {
   padding: .25rem .5rem .5rem 0;
 }
 
+/* footer */
 .footer {
   padding-top: 2rem;
 }
@@ -968,6 +985,7 @@ img {
   color: white;
 }
 
+/* scroll up */
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -989,10 +1007,12 @@ img {
   color: #fff;
 }
 
+/* show scroll */
 .show-scroll {
   bottom: 5rem;
 }
 
+/* scroll bar web */
 ::-webkit-scrollbar {
   width: .60rem;
   background-color: var(--scroll-bar-color);
@@ -1008,6 +1028,7 @@ img {
   background-color: var(--text-color-light);
 }
 
+/* media quary */
 @media screen and (max-width: 350px) {
   .container {
     margin-left: var(--mb-1);
@@ -1089,6 +1110,7 @@ img {
   height: 170px;
 }
 
+/* media quary small device */
 @media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
@@ -1119,14 +1141,11 @@ img {
   }
 }
 
+/* media quary medium width */
 @media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  body {
-    margin: 0;
   }
 
   .section {
@@ -1288,6 +1307,7 @@ img {
   }
 }
 
+/* media quary max device */
 @media screen and (min-width: 1024px) {
 
   .header,
@@ -1337,7 +1357,7 @@ img {
   }
 }
 
-
+/* form contact area */
 .contact input,
 textarea {
   width: 100%;
