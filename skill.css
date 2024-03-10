@@ -83,3 +83,11 @@ li {
 [class*="col-"] {
   width: 100%;
 }
+
+
+#ig{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
