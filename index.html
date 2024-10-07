@@ -105,8 +105,7 @@
                   165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                   129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                   -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                <image id="home-blob-img" class="home__blob-img" x="'12" y="18"
-                  xlink:href="images/nobackground.png" />
+                <image id="home-blob-img" class="home__blob-img" x="'12" y="18" xlink:href="images/nobackground.png" />
               </g>
             </svg>
           </div>
@@ -168,7 +167,7 @@
             </div>
           </div>
           <div class="about__buttons">
-            <a download="" href="cv.html" alt="" class="button button--flex">
+            <a download="" href="cv.pdf" alt="" class="button button--flex">
               Resume<i class="uil uil-download-alt button__icon"></i>
             </a>
           </div>
@@ -321,11 +320,11 @@
 
               <div class="skills__data">
                 <div class="skills__titles">
-                  <h3 class="skills__name">PHP</h3>
-                  <span class="skills__number">29%</span>
+                  <h3 class="skills__name">PostGreSQL</h3>
+                  <span class="skills__number">70%</span>
                 </div>
                 <div class="skills__bar">
-                  <span class="skills__percentage skills__php"></span>
+                  <span class="skills__percentage skills__postgresql"></span>
                 </div>
               </div>
             </div>
@@ -593,59 +592,32 @@
       <div class="protfolio__container container swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="protfolio__content grid swiper-slide">
-            <img src="images/screencapture-file-E-Web.jpg" alt="" class="protfolio__img">
+            <img src="./images/flowerseal.png" alt="" class="protfolio__img">
 
             <div class="protfolio__data">
-              <h3 class="protfolio__title">Figma Website</h3>
+              <h3 class="protfolio__title">Flower Seal</h3>
               <p class="protfolio__description">This project is developed by myself only frontend I used HTML and CSS in
                 it.Click Me Demo Button View Full Website</p>
-              <a target="_blank" href="images/screencapture-file-E-Web-Debole.png"
-                class="button button--flex button--small protfolio__button">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
+              <a target="_blank" href="https://flowersell.netlify.app/" class="button button--flex button--small protfolio__button">
+                Demo <i class="uil uil-arrow-right button__icon"></i>
               </a>
             </div>
           </div>
           <!-- project 2 -->
           <div class="protfolio__content grid swiper-slide">
-            <img src="images/screencapture-file-E-Web-Debolepment-Block-Project-index-html-2024-03-08-00_37_49.png"
+            <img src="./images/ridesharing.png"
               alt="" class="protfolio__img">
 
             <div class="protfolio__data">
-              <h3 class="protfolio__title">Block Website</h3>
+              <h3 class="protfolio__title">Ride Sharing</h3>
               <p class="protfolio__description">This project is developed by myself only frontend I used HTML and CSS
                 And JavaScript in it.Click Me Demo Button View Full Website.</p>
-              <a target="_blank"
-                href="images/screencapture-file-E-Web-Debolepment-Block-Project-index-html-2024-03-08-00_37_49.png"
-                class="button button--flex button--small protfolio__button">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-          <!-- project 3 -->
-          <div class="protfolio__content grid swiper-slide">
-            <img src="images/screencapture-file-E-Web-Debolepment-calculator-index-html-2024-03-08-00_42_22.png" alt=""
-              class="protfolio__img">
-
-            <div class="protfolio__data">
-              <h3 class="protfolio__title">Calculator Website</h3>
-              <p class="protfolio__description">This project is developed by myself only frontend Backend I used HTML
-                and CSS And JavaScript in it.Click Me Demo Button View Full Website.</p>
-              <a target="_blank"
-                href="images/screencapture-file-E-Web-Debolepment-calculator-index-html-2024-03-08-00_42_22.png"
-                class="button button--flex button--small protfolio__button">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-              <a href="project.html" class="button button--flex button--small protfolio__button">
-                ClickMe
-                <i class="uil uil-arrow-right button__icon"></i>
+              <a target="_blank" href="https://ride-sharing-web.netlify.app/" class="button button--flex button--small protfolio__button">
+                Demo<i class="uil uil-arrow-right button__icon"></i>
               </a>
             </div>
           </div>
         </div>
-
 
         <div class="swiper-button-next">
           <i class="uil uil-angle-right-b swiper-protfolio-icon"></i>
@@ -661,7 +633,7 @@
     </section>
 
     <!-- section area -->
-    <section class="project section" id="sec">
+    <section class="project section">
       <!-- project -->
       <div class="project__bg">
         <div class="project__container container grid">
@@ -673,9 +645,10 @@
               Contect Me
               <i class="uil uil-message project__icon button__icon"></i>
             </a>
+            <br>
+            <br>
+            <br>
           </div>
-
-          <img id="abouts-img" src="images/nobackground1.png" alt="" class="project__img">
         </div>
       </div>
     </section>
@@ -804,12 +777,12 @@
 
         <!-- contact you -->
         <div>
-          <form action="mailto:syednazmusshakib94@gmail.com" method="post" enctype="text/plain">
-            <p><input id="fot" type="text" placeholder="Your Name" name="name" /></p>
+          <form method="post" enctype="multipart/form-data">
+            <p><input id="name" class="fot" type="text" placeholder="Your Name" name="name" /></p>
             <br>
-            <p><input id="fot" type="email" placeholder="Your Email" name="email" /></p>
+            <p><input id="email" class="fot" type="email" placeholder="Your Email" name="email" /></p>
             <br>
-            <textarea id="fot" name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+            <textarea id="message" class="fot" name="message" cols="30" rows="10" placeholder="Your Message Here"></textarea>
             <button type="submit">SEND</button>
             <button type="reset">RESET</button>
           </form>
@@ -818,20 +791,12 @@
     </section>
 
     <!-- footer area -->
-    <footer class="footer" id="footers">
+    <footer class="footer">
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Shakib</h1>
             <span class="footer__subtitle">Backend Developer</span>
-            <br><br>
-            <a href="skill.html" class="ttt">My Skills Details</a>
-            <br>
-            <br>
-            <br>
-            <ul>
-              <a href="tarminal.html" class="tarminal">Click To View Terminal <br> Based Project Backend</a>
-            </ul>
           </div>
           <ul class="footer__links">
             <li>
@@ -865,27 +830,28 @@
             <a href="https://twitter.com/syed_shaki27278" target="_blank" class="footer__social">
               <i class="uil uil-twitter-alt"></i>
             </a>
-            <br>
-            <br>
-            <!-- problem solving site -->
-            <p style="color: white;"><b>Click here to see the online list of problems I have solved:-</b></p>
-            <div id="site">
-              <b>
-                <a target="_blank" href="https://www.spoj.com/myaccount/">spoj</a>,
-                <a target="_blank" href="https://lightoj.com/user/user-yduu6b6q">lightoj</a>,
-                <a target="_blank" href="https://www.eolymp.com/en/users/user379527">eolymp</a>,
-                <a target="_blank" href="https://codeforces.com/profile/Shakibosd_02">codeforces</a>,
-                <a target="_blank" href="https://www.hackerrank.com/submissions/all/1">hackerrank</a>,
-                <a target="_blank" href="https://leetcode.com/submissions/#/1">leetcode</a>,
-                <a target="_blank"
-                  href="https://www.codingninjas.com/studio/profile/504a45c9-7125-40a5-b87e-4a784afbc18b">codingninjas</a>,
-                <a target="_blank" href="https://cses.fi/user/221344">CSES</a>,
-                <a target="_blank" href="https://auth.geeksforgeeks.org/user/syednazmus2qqv/">geeksforgeeks</a>,
-                <a target="_blank" href="https://school.outsbook.com/problems/mysubmissions">outsbook.</a></b>
-            </div>
           </div>
         </div>
-        <p style="color: white;" class="footer__copy">&#169; 2024. Develop With By Shakib</p>
+        <!-- problem solving site -->
+        <div class="problem_solving">
+          <b>Click here to see the online list of problems I have solved :- </b>
+          <div>
+            <b>
+              <a target="_blank" href="https://www.spoj.com/myaccount/">spoj</a>,
+              <a target="_blank" href="https://lightoj.com/user/user-yduu6b6q">lightoj</a>,
+              <a target="_blank" href="https://www.eolymp.com/en/users/user379527">eolymp</a>,
+              <a target="_blank" href="https://codeforces.com/profile/Shakibosd_02">codeforces</a>,
+              <a target="_blank" href="https://www.hackerrank.com/submissions/all/1">hackerrank</a>,
+              <a target="_blank" href="https://leetcode.com/submissions/#/1">leetcode</a>,
+              <a target="_blank"
+                href="https://www.codingninjas.com/studio/profile/504a45c9-7125-40a5-b87e-4a784afbc18b">codingninjas</a>,
+              <a target="_blank" href="https://cses.fi/user/221344">CSES</a>,
+              <a target="_blank" href="https://auth.geeksforgeeks.org/user/syednazmus2qqv/">geeksforgeeks</a>,
+              <a target="_blank" href="https://school.outsbook.com/problems/mysubmissions">outsbook.</a>
+            </b>
+          </div>
+        </div>
+        <p style="color: white;" class="footer__copy">&copy; 2024 Develop With By Shakib</p>
       </div>
     </footer>
 

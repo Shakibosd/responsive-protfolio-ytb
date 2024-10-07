@@ -7,7 +7,7 @@
 
   /*Color*/
   --hue-color: 230;
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
 
   /* HSL*/
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -115,10 +115,6 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   margin: 0;
-}
-
-#background_imges{
-  background-image: url(images/banner-bg.d6708ef8.png) !important;
 }
 
 h1,
@@ -414,11 +410,12 @@ img {
 
 /* about */
 .about__img {
-  width: 200px;
+  width: 400px;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
-  background-color: bisque;
+  background-color: var(--input-color);
+  color: gray;
 }
 
 .about__description {
@@ -563,8 +560,8 @@ img {
   width: 79%;
 }
 
-.skills__php {
-  width: 29%;
+.skills__postgresql {
+  width: 70%;
 }
 
 .skills__close .skills__list {
@@ -752,10 +749,6 @@ img {
   visibility: visible;
 }
 
-#sec {
-  background-image: url(images/announce-bg.b41ffe75.png) !important;
-}
-
 /* protfolio */
 .protfolio__container {
   overflow: initial;
@@ -844,7 +837,6 @@ img {
 .project__img {
   width: 250px;
   justify-self: center;
-  background-color: aquamarine;
 }
 
 /* testimonial */
@@ -1077,10 +1069,6 @@ img {
     padding: 0 .5rem;
   }
 
-  .project__img {
-    width: 200px;
-  }
-
   .testimonial__data,
   .testimonial__header {
     flex-direction: column;
@@ -1101,12 +1089,6 @@ img {
 #about-img {
   height: 415px;
   width: 415px;
-}
-
-#abouts-img {
-  height: 250px;
-  width: 250px;
-  border-radius: 10px;
 }
 
 #home-blob-img {
@@ -1305,7 +1287,7 @@ img {
   }
 
   .footer__socials {
-    justify-self: flex-end;
+    display: flex;
   }
 
   .footer__copy {
@@ -1410,7 +1392,7 @@ textarea {
   content: "";
 }
 
-#fot {
+.fot {
   background-color: var(--input-color);
   color: gray;
 }
@@ -1430,28 +1412,29 @@ textarea {
   border: 4px solid gray;
 }
 
-#site a {
-  color: rgb(131, 32, 136);
+.problem_solving{
+  text-align: center;
+  padding-top: 50px;
+  color: white;
 }
 
 #ig {
-  height: 35px;
-  width: 35px;
-  border-radius: 50px;
-  padding-top: 1px;
+  height: 43px;
+  width: 43px;
+  border-radius: 40px;
 }
 
-.clickMe{
+.clickMe {
   padding: 5px 8px;
   background-color: var(--first-color);
   color: white;
   border-radius: 5px;
 }
 
-.clickMe:hover{
+.clickMe:hover {
   background-color: var(--first-color-alt);
 }
 
-.tarminal{
+.tarminal {
   color: white;
 }
