@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-image: url(images/announce-bg.b41ffe75.png);
+  transition: background-color 0.5s ease;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-container {
+  top: 10px;
+  right: 10px;
+}
+
+.navbar {
+  background-color: #3c4b64;
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+}
+
+#pic {
+  height: 225px;
+  width: 225px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 290px;
+  height: 290px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+/* for mobile  */
+[class*="col-"] {
+  width: 100%;
+}
+
+#ig{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}

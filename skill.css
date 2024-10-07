@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-image: url(images/banner-bg.d6708ef8.png);
+  transition: background-color 0.5s ease;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-container {
+  top: 10px;
+  right: 10px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.set_bg_col {
+  text-align: center;
+  border-radius: 35px;
+  font-family: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: magenta;
+  margin-block: 32px;
+}
+
+.set_bg_col:hover {
+  color: yellowgreen;
+}
+
+.dones {
+  color: red;
+}
+
+.navbar {
+  background-color: #3c4b64;
+  padding: 1% 5%;
+  text-align: center;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 2;
+  padding-top: 8;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.pic {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+}
+
+.extra {
+  color: rgb(0, 255, 38);
+}
+
+.dont {
+  text-align: center;
+  color: gray;
+}
+
+.io {
+  color: black;
+  border: 2px solid gray;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+/* for mobile  */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+#ig{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
