@@ -1304,20 +1304,8 @@ img {
     padding: 0;
   }
 
-  .rights {
-    padding-right: 605px;
-  }
-
   .abt-dsk {
     padding-top: 50px;
-  }
-
-  .padr {
-    padding-right: 90px;
-  }
-
-  .padl {
-    padding-left: 90px;
   }
 
   .home__blob {
@@ -1458,6 +1446,11 @@ textarea {
   .about-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .section_problem_solving{
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .about-image {
