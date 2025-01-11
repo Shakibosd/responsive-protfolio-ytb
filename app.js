@@ -121,7 +121,6 @@ if (selectedTheme) {
     iconTheme
   );
 }
-
 themeButton.addEventListener("click", () => {
   document.body.classList.toggle(darkTheme);
   themeButton.classList.toggle(iconTheme);
