@@ -202,3 +202,9 @@ document.querySelectorAll('.services__button').forEach(button => {
     });
   });
   
+
+  //footer js
+const currentYear = new Date().getFullYear();
+console.log(currentYear);
+const footerText = document.getElementById("footer-text-year");
+footerText.innerHTML = `&copy; ${currentYear} Develop With By <b>Nazmus Shakib</b>`;
